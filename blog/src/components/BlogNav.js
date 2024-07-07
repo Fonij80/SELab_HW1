@@ -14,7 +14,7 @@ const BlogNav = () => {
 			alt=''
 			loading='lazy'
 			/>
-				<Navbar.Brand href="#home" style={{color:"white", marginLeft:"10px"}}>GeeksforGeeks</Navbar.Brand>
+				<Navbar.Brand href="#home" style={{color:"white", marginLeft:"10px"}}>SE Lab</Navbar.Brand>
 				<Navbar.Toggle />
 				<Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
 					<Nav>
