@@ -22,7 +22,7 @@ const Post4 = () => {
 					and include things such as routers, switches,
 					hubs, and bridges.
 				</Card.Text>
-				<a className="btn btn-primary">Read More</a>
+				<button className="btn btn-primary">Read More</button>
 			</Card.Body>
 		</Card>
 	)
