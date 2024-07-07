@@ -2,9 +2,9 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [main]
   pull_request:
-    branches: [ "main" ]
+    branches: [main]
 
 jobs:
   build:
@@ -12,7 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
-
-    - name: Build and Deploy React app to GitHub Pages
-      uses: omkartapale/react-deployment-gh-pages@v1.0.0
+    - uses: actions/checkout@v2
+    
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      working-directory: ./blog
+      run: npm ci
+      
+    - name: Build the app
+      working-directory: ./blog
+      run: npm run build
