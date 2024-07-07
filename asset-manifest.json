@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SELab_HW1/static/css/main.db49e55c.css",
+    "main.js": "/SELab_HW1/static/js/main.62b5f34c.js",
+    "static/js/453.ede2c593.chunk.js": "/SELab_HW1/static/js/453.ede2c593.chunk.js",
+    "index.html": "/SELab_HW1/index.html",
+    "main.db49e55c.css.map": "/SELab_HW1/static/css/main.db49e55c.css.map",
+    "main.62b5f34c.js.map": "/SELab_HW1/static/js/main.62b5f34c.js.map",
+    "453.ede2c593.chunk.js.map": "/SELab_HW1/static/js/453.ede2c593.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db49e55c.css",
+    "static/js/main.62b5f34c.js"
+  ]
+}
