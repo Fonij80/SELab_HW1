@@ -22,7 +22,7 @@ const Post2 = () => {
 					executed upon in order to get the expected
 					results.
 				</Card.Text>
-				<a className="btn btn-primary">Read More</a>
+				<button className="btn btn-primary">Read More</button>
 			</Card.Body>
 		</Card>
 	)
