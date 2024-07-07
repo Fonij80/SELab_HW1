@@ -1,3 +1,5 @@
+// Post2.js
+
 import { Card } from "react-bootstrap";
 
 const Post2 = () => {
@@ -10,6 +12,7 @@ const Post2 = () => {
 				height={250}
 			/>
 			<Card.Body>
+				<Card.Title>Data Structure</Card.Title>
 				<Card.Text>
 					The word Algorithm means “a process
 					or set of rules to be followed in calculations
