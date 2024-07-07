@@ -19,7 +19,7 @@ const Post3 = () => {
 					executed upon in order to get the expected
 					results.
 				</Card.Text>
-				<a href="#" className="btn btn-primary">Read More</a>
+				<a className="btn btn-primary">Read More</a>
 			</Card.Body>
 		</Card>
 	)
