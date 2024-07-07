@@ -18,10 +18,10 @@ const Posts = () => {
 						<Card.Body>
 							<Card.Title>Recent Posts</Card.Title>
 							<ul className="list-unstyled">
-								<li><a href="#">JavaScript</a></li>
-								<li><a href="#">Data Structure</a></li>
-								<li><a href="#">Algorithm</a></li>
-								<li><a href="#">Computer Network</a></li>
+								<li><a>JavaScript</a></li>
+								<li><a>Data Structure</a></li>
+								<li><a>Algorithm</a></li>
+								<li><a>Computer Network</a></li>
 							</ul>
 						</Card.Body>
 					</Card>

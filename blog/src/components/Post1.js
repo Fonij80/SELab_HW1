@@ -22,7 +22,7 @@ const Post1 = () => {
 					used for Client-side developments as well as
 					Server-side developments
 				</Card.Text>
-				<a href="#" className="btn btn-primary">Read More</a>
+				<a className="btn btn-primary">Read More</a>
 			</Card.Body>
 		</Card>
 	);
