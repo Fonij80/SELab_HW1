@@ -24,8 +24,8 @@ const Footer = () => {
                     </div>
                     <div className="footer-section contact">
                         <h2>Get In Touch</h2>
-                        <p>Email: info@example.com</p>
-                        <p>Phone: 123456789</p>
+                        <p>Email: SEtest@example.com</p>
+                        <p>Phone: 021 123 4567</p>
                     </div>
                 </div>
                 <div className="footer-bottom">
